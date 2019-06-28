@@ -1,0 +1,64 @@
+body{
+    background: url("https://www.gotobermuda.com/sites/default/files/styles/hero/public/head-cyrstal-caves-bermuda.jpg?itok=4R-vUU4Y") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%; 
+    overflow: hidden;
+}
+
+
+
+
+
+.gems {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    align-items: center;
+
+}
+
+
+.gem{
+    border: lightgray solid 2px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 2px 2px lightgray;
+    transition: width 1s;
+}
+
+.gem:hover{
+    box-shadow: 2px 2px 2px lightgray;
+    padding:5px; 
+}
+
+img{
+    width:50px;
+}
+#result{
+    text-align: center;
+    color: darkgray;
+    text-shadow: 0.5px 0.5px lightseagreen;
+
+}
+
+#previous{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-shadow: 0.5px 0.5px grey;
+
+}
+#wins{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px lightblue;
+
+}
+#losses{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px lightcoral;
+
+}
