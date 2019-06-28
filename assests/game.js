@@ -92,9 +92,8 @@ $(document).on('click', ".gem", function () {
 
     }
     /// if loss of more than 3 games add easy mode 
-    if (losses > 3) {
+    if (losses == 4) {
         alert("RIGHT CLICK, CLICK INSPECT, CLICK ON CONSOLE IN WINDOW ");
-
 
     }
 });

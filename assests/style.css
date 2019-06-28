@@ -37,7 +37,7 @@ img{
 #result{
     text-align: center;
     color: darkgray;
-    text-shadow: 0.5px 0.5px lightseagreen;
+    text-shadow: 1px 1px lightseagreen;
 
 }
 
@@ -45,7 +45,7 @@ img{
     font-size: 50px;
     text-align: center;
     color: black;
-    text-shadow: 0.5px 0.5px grey;
+    text-shadow: 1px 1px grey;
 
 }
 #wins{
